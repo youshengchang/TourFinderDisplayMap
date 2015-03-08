@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_all"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_all"/>
+
+    <item
+        android:id="@+id/menu_cheap"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_cheap"/>
+
+    <item
+        android:id="@+id/menu_fancy"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/menu_fancy"/>
+    <item android:id="@+id/menu_gp_license_dialog" android:title="@string/gp_license"></item>
+
+</menu>
